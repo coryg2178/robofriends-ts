@@ -1,9 +1,14 @@
 import React from 'react';
 
-type CardProps = { id: number; name: string; email: string };
-
-const Card = (props: CardProps) => {
-  const { name, email, id } = props;
+const Card = ({
+  id,
+  name,
+  email,
+}: {
+  id: number;
+  name: string;
+  email: string;
+}) => {
   return (
     <div className="bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5">
       <h1>RoboFriends</h1>
