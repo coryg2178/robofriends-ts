@@ -1,7 +1,7 @@
 import React, { ChangeEvent, Component } from 'react';
-import CardList from './CardList';
-import SearchBox from './SearchBox';
-import { Robot, robots } from './robots';
+import CardList from '../components/CardList';
+import SearchBox from '../components/SearchBox';
+import { Robot, robots } from '../components/robots';
 import './App.css';
 
 interface IState {
